@@ -1,0 +1,117 @@
+/* src/pages/Home.css */
+.home-container {
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #e9d5ff, #bfdbfe);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.header {
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+.header h2 {
+  color: #7e22ce;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links a {
+  margin-left: 1rem;
+  color: #7e22ce;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.card {
+  background: white;
+  padding: 3rem;
+  border-radius: 1rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  max-width: 700px;
+  width: 100%;
+}
+
+.card h1 {
+  font-size: 2.5rem;
+  color: #7e22ce;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.card p {
+  text-align: center;
+  color: #4b5563;
+  margin-bottom: 2rem;
+}
+
+form label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #374151;
+}
+
+form input {
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+form button {
+  width: 100%;
+  padding: 1rem;
+  background-color: #7e22ce;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #6b21a8;
+}
+
+.register-section {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.register-section a {
+  display: inline-block;
+  background-color: #16a34a;
+  color: white;
+  padding: 1rem 2rem;
+  font-weight: bold;
+  border-radius: 0.5rem;
+  text-decoration: none;
+}
+
+.register-section a:hover {
+  background-color: #15803d;
+}
+
+.footer {
+  margin-top: 2rem;
+  text-align: center;
+  color: #374151;
+  font-size: 0.875rem;
+}
