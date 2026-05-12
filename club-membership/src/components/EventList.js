@@ -54,8 +54,8 @@ const EventList = () => {
   const navigate = useNavigate();
 
   // Optional: clubId if you need later
-  const { clubId: clubIdParam } = useParams();
-  const storedClubId = localStorage.getItem("clubId");
+  // const { clubId: clubIdParam } = useParams();
+  // const storedClubId = localStorage.getItem("clubId");
   //const clubId = clubIdParam || storedClubId || null;
 
   /** Resolve current user id from localStorage or JWT payload */
